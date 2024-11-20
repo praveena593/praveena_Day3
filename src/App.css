@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,14 @@
   to {
     transform: rotate(360deg);
   }
+} */
+ /* This will center the ProfileCard component */
+.App {
+  display: flex;
+  justify-content: center;   /* Horizontally centers the card */
+  align-items: center;       /* Vertically centers the card */
+  height: 100vh;             /* Full viewport height */
+  margin: 0;                 /* Remove default margin */
+  background-color: #f7f7f7; /* Optional: Add background color */
 }
+
